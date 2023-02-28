@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background:radial-gradient(rgb(109, 2, 109),rgb(247, 149, 113));
+}
+.logo a{
+    color:coral;
+    font-size: 35px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration:none;
+    
+}
+
+
+nav.header{
+   font-size: 18px;
+   background:linear-gradient(to right, dodgerblue, rgb(241, 4, 241));
+   width: auto;
+   height: auto;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.menu ul a{
+    padding-right:20px;
+    margin-right: 30px;
+    color:#7a3303;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+}
+ul {
+    margin-top: 15px;
+}
+nav.header:hover{
+    background:#fff;
+}
+.menu ul a:hover{
+    color: coral;
+}
+.main-content{
+    margin: 10px 20px;
+    text-align: left;
+    justify-content: center;
+    text-align: center;
+    
+}
+.name{
+    font-size: 75px;
+    color: rgb(10, 127, 243);
+
+}
+.title{
+    color:rgb(162, 162, 243);
+    font-size: 45px;
+    line-height: 4rem;
+    margin-bottom: 30px;
+
+}
+.logo a:hover{
+    color:rgb(160, 160, 243);
+}
+span{
+    color: coral;
+}
+.brief-infor{
+    font-size: 35px;
+    color:#fff;
+    text-align: left;
+    justify-content: center;
+}
+.join{
+    background-color: blueviolet;
+    color:#fff;
+    font-size: 18px;
+    padding:10px 16px;
+    border-radius: 8px;
+    border:none;
+    margin-left: -108px;
+    
+
+}
+.text{
+    padding-top:1.4rem;
+    width: 40rem;
+    border:none;
+    padding-bottom: 1.2rem;
+    overflow: hidden;
+}
